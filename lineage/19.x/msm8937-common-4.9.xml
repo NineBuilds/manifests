@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Device repos--> 
+  <project path="device/motorola/montana" name="mthlma/android_device_motorola_montana" revision="lineage-18.1" />
+  <project path="device/motorola/msm8937-common" name="mthlma/android_device_motorola_msm8937-common" revision="lineage-19.1" />
+  <project path="kernel/motorola/msm8953" name="wiktorek140/msm-4.9-new" revision="lineage-18.1-rebase-2" />
+  <project path="vendor/motorola" name="mthlma/proprietary_vendor_motorola" revision="lineage-18.1" />
+
+  <!--Dependencies-->
+  <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" />
+  <project path="external/bson" name="LineageOS/android_external_bson" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" />
+
+</manifest>
