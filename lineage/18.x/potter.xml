@@ -5,7 +5,7 @@
   <project path="device/motorola/potter" name="mthlma/android_device_motorola_potter-lineage-18.1" revision="lineage-18.1" />
   
   <!--Vendor repos-->
-  <project path="vendor/motorola/potter" name="dotOS-Devices/proprietary_vendor_motorola_potter" revision="dot11" />
+  <project path="vendor/motorola/potter" name="mthlma/proprietary_vendor_motorola_potter" revision="dot11" />
   
   <!--Kernel repo-->
   <project path="kernel/motorola/potter" name="mthlma/android_kernel_motorola_potter" revision="dot11" />
