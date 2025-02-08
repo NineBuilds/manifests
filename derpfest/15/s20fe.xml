@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github2"
+           fetch="https://github.com" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <!--Device repos--> 
+  <project path="device/samsung/r8q" name="JoelLucas/android_device_samsung_r8q" revision="lineage-22.1" remote="github2" />
+  <project path="device/samsung/sm8250-common" name="JoelLucas/android_device_samsung_sm8250-common" revision="lineage-22.1" remote="github2" />
+  
+  <!--Vendor repos-->
+  <project path="vendor/samsung/sm8250-common" name="skye-pa1n/proprietary_vendor_samsung_sm8250-common" revision="lineage-21" remote="github2" />
+  
+  <!--Kernel repo-->
+  <project path="kernel/samsung/r8q" name="JoelLucas/android_kernel_samsung_sm8250" revision="lineage-22.1" remote="github2" />
+
+  <!--Hardware repo-->
+  <project path="hardware/samsung" name="JoelLucas/hardware_samsung" revision="lineage-22.1" remote="github2" />
+  <project path="hardware/qcom" name="JoelLucas/android_hardware_qcom-caf_common" revision="lineage-22.1" remote="github2" />
+
+</manifest>
