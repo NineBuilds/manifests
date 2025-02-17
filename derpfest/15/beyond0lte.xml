@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github2"
+           fetch="https://github.com" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <!--Device repos--> 
+  <project path="device/samsung/beyond0lte" name="NineBuilds/device_samsung_beyond0lte" revision="lineage-22.1" remote="github2" />
+  <project path="device/samsung/exynos9820-common" name="lukibuilds/device_samsung_exynos9820-common" revision="lineage-22.1" remote="github2" />
+
+  <!--Vendor repos-->
+  <project path="vendor/samsung/exynos9820-common" name="TheMuppets/proprietary_vendor_samsung_exynos9820-common" revision="lineage-22.1" remote="github2" />
+  <project path="vendor/samsung/beyond0lte" name="TheMuppets/proprietary_vendor_samsung_beyond0lte" revision="lineage-22.1" remote="github2" />
+  
+  <!--Kernel repo-->
+  <project path="kernel/samsung/exynos9820" name="lukibuilds/kernel_samsung_exynos9820" revision="lineage-22.1" remote="github2" />
+
+  <!--Hardware repos-->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" revision="lineage-22.1" remote="github2" />
+  <project path="hardware/samsung_slsi-linaro/config" name="LineageOS/android_hardware_samsung_slsi-linaro_config" revision="lineage-22.1" remote="github2" />
+
+</manifest>
